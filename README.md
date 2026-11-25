@@ -2,7 +2,7 @@
 
 API REST para gerenciamento de usuários, construída com **Java 17** e **Spring Boot 3**, seguindo arquitetura em camadas e boas práticas de mercado.
 
-## ✨ Funcionalidades
+##  Funcionalidades
 
 - CRUD completo de usuários
 - Validação de dados com Bean Validation (mensagens em português)
@@ -13,11 +13,11 @@ API REST para gerenciamento de usuários, construída com **Java 17** e **Spring
 - Documentação interativa com **Swagger / OpenAPI**
 - Testes de integração com **MockMvc**
 
-## 🛠️ Tecnologias
+## ️ Tecnologias
 
 Java 17 · Spring Boot 3.3 · Spring Web · Spring Data JPA · Bean Validation · Spring Security Crypto · H2 · springdoc-openapi · JUnit 5
 
-## 🏗️ Estrutura
+## Estrutura
 
 ```
 src/main/java/com/exemplo/usuarios
@@ -30,7 +30,7 @@ src/main/java/com/exemplo/usuarios
 └── config       # Beans (BCrypt, OpenAPI)
 ```
 
-## 🚀 Como executar
+## Como executar
 
 Pré-requisitos: JDK 17+ e Maven 3.9+
 
@@ -89,7 +89,7 @@ Erro de validação `400`:
 }
 ```
 
-## 🔭 Próximos passos
+##  Próximos passos
 
 - Autenticação com JWT (Spring Security)
 - Banco PostgreSQL + Flyway
